@@ -1,0 +1,194 @@
+html {
+    background: url(back.jpg);
+    font-size: 16px;
+    background-size: auto 100vh;
+    background-position: top;
+    background-repeat: no-repeat;    
+    display: flex;
+    justify-content: center;
+
+}
+#trang_2 {
+    position: relative;
+    z-index: 1;
+}
+.title {
+    color: rgb(248, 0, 0);
+    font-family: 'Le Havre  2',iCiel Bambola;
+    text-align: center;
+    text-shadow: 10px 20px 5px rgb(233, 226, 226);
+}
+#main_title {
+    font-size: 7vw;
+
+    margin-top: 15vh;
+    margin-bottom: 10px;
+    display: block;
+}
+#sub_title {
+    font-size: 4vw;
+    margin-top: 10px;
+}
+.buton {
+    position: relative;
+    top: 0vh;
+    left: 0vw;
+
+}
+#yes {
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:azure;
+    width: 200px;
+    text-align: center;
+    background-color: crimson;
+    border: 2px solid greenyellow;
+    border-radius: 12px;
+    padding: 10px;
+    position: absolute;
+    left: 25vw;
+}
+#no {
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:azure;
+    width: 200px;
+    text-align: center;
+    background-color: rgb(0, 208, 255);
+    border: 2px solid greenyellow;
+    border-radius: 12px;
+    padding: 10px;
+    position: absolute;
+    left: 60vw;
+}
+.tbpopup .tboverlay {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+    background:rgba(0,0,0,0.7);
+    z-index:3;
+    display:none;
+    }
+    
+.tbpopup .tbcontent {
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%) scale(0);
+background:rgb(255, 255, 255);
+max-width:500px;
+z-index:4;
+text-align:center;
+padding:20px;
+box-sizing:border-box;
+font-family:"Open Sans",sans-serif;
+border-radius:20px;
+display: block;
+position: fixed;
+box-shadow:0px 0px 10px #111;
+
+}
+#img {
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.caption_1 {
+    font-size: 25px;
+    color: rgb(255, 81, 119);
+    font-family: iCiel Bambola;
+    margin-bottom: 12px;
+}
+
+#button__1 {
+    cursor:pointer;
+    font-size: 15px;
+    width: fit-content;
+    background-color: rgb(68, 137, 255);
+    border: 2px solid rgb(68, 137, 255);
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin: auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+.tbpopup.active .tboverlay {
+display:block;
+}
+
+.tbpopup.active .tbcontent {
+transition:all 300ms ease-in-out;
+transform:translate(-50%,-50%) scale(1);
+}
+.tbbuttom{background:#00cc00;color:#fff}
+
+#trang__3 {
+    position: relative;
+    z-index: 2;
+}
+#popup__id {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    display: none;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.7);
+}
+#content__id {
+    margin: auto;
+    height: fit-content;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    background-image: linear-gradient(-45deg,rgb(168, 0, 235),rgb(255, 0, 140));
+    box-shadow: 1em 0.5em rgba(0, 0, 0, 0.26);
+    border: 0px solid rgb(0, 140, 255);
+    border-radius: 12px;
+}
+#text {
+    font-size: 3.5em;
+    width: 90%;
+    padding-top: 10px;
+    text-align: center;
+    color: aliceblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
+    
+}
+#insert_text {
+    font-size: 4em;
+    border: 2px solid white;
+    margin: auto;
+    margin-top: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 80%;
+    border-radius: 12px;
+}
+#send_text {
+    cursor: pointer;
+    font-size: 30px;
+    text-align: center;
+    width: fit-content;
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background-color: rgb(0, 89, 255);
+    border: 2px solid white;
+    box-shadow: 0.1em 0.1em rgba(189, 0, 157, 0.644);
+    border-radius: 12px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+}
+#gif {
+    position: absolute;
+    top: 0px;
+    left: 10vw;
+
+}

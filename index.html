@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Thả thính người yêu mùa dịch</title>
+        <meta charset ="utf-8">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="var.css">
+        <link rel="stylesheet" href="config.js">
+    </head>
+    <body onload="thongbaopopup()">
+        <!-- Thong bao pupup -->
+        <div class="tbpopup" id="tbpopup-1">
+            <div class="tboverlay"></div>
+            <div class="tbcontent">
+                <img id = "img" src="main_img.gif"/>
+                <div class = "caption_1" id= "caption__1"></div>
+                <div class="button_1" id="button__1" onclick="thongbaopopup()"></div>
+            </div>
+        </div>
+            <!--trang__3-->
+            <div class="trang_3" id="trang__3" onload = "send()">
+                <div class="popup" id="popup__id">
+                    <div class="overlay" id="overlay__id">
+                        <img src="https://media.giphy.com/media/IcJ6n6VJNjRNS/giphy.gif" id= "gif" alt="">
+                    </div>
+                    <div class="content" id="content__id">
+                        <div id="text"></div>
+                        <input id = "insert_text" type="text" placeholder = "insert">
+                        <a href = "https://www.facebook.com/" id="send_text" style="text-decoration:none" onclick="send()"></a>
+                        
+                    </div>
+                </div>
+            </div>
+        <!-- trang chủ chính-->
+        <div id="trang_2">
+            <h1 class = "title" id="main_title"></h1>
+                <h2 class="title" id = "sub_title"></h2>
+            </div>
+            <div class = "button">
+                <p id="yes"></p>
+                <p id="no"></p>
+        </div>
+
+        <!--code js-->
+        <script src = "config.js">
+        </script>
+        <script>
+            const caption_1 = document.querySelector('#caption__1');
+            const button_1 = document.querySelector('#button__1');
+            caption_1.innerText = CONFIG.caption__1;
+            button_1.innerText = CONFIG.button__1;
+        </script>
+        <script>
+            function thongbaopopup(){
+            document.getElementById("tbpopup-1").classList.toggle("active");
+            }
+        </script>
+
+        <script>
+            const btnYes = document.querySelector('#yes');
+            const btnNo = document.querySelector('#no');
+            const BTN = document.querySelector('.button');
+            var main = document.getElementById("main_title");
+            var sub = document.getElementById("sub_title");
+            var yes = document.getElementById("yes");
+            var no = document.getElementById("no");
+            var trang3_text = document.getElementById("text");
+            var trang3_send_text = document.getElementById("send_text");
+            var c_content = document.getElementById("content__id");
+            var button_number1 = document.getElementById("button__1");
+            var pop = document.getElementById("popup__id");
+
+            main.innerText = CONFIG.main;
+            sub.innerText = CONFIG.sub;
+            yes.innerText = CONFIG.yes_answer;
+            no.innerText = CONFIG.no_answer;
+            trang3_text.innerText = CONFIG.text;
+            trang3_send_text.innerText = CONFIG.send_text;
+            send_text.href = CONFIG.link;
+
+            btnNo.onmouseover = function () {
+                btnYes.style.left = '60vw';
+                btnNo.style.left = '25vw';
+            }
+            btnNo.onmouseleave = function() {
+                btnYes.style.left = '25vw';
+                btnNo.style.left = '60vw';
+            }
+            BTN.onclick = function(){
+                pop.style.display = "flex";
+            }
+            BTN.onmouseover = function(){
+            }
+        </script>
+        
+        <br/>
+    </body>
+</html> 
