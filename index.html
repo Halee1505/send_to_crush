@@ -87,6 +87,15 @@
             btnNo.onmouseover = function () {
                 btnNo.style.top = '30vh';
             }
+            btnNo.onclick = function()
+            {
+                btnNo.style.top = '30vh';
+                setTimeout(ret(),1000);
+
+            }
+            function ret(){
+                btnNo.style.top = '';
+            }
             btnNo.onmouseleave = function() {
                 btnNo.style.top = '';
             }
