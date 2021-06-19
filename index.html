@@ -85,14 +85,12 @@
             send_text.href = CONFIG.link;
 
             btnNo.onmouseover = function () {
-                btnYes.style.left = '60vw';
-                btnNo.style.left = '25vw';
+                btnNo.style.top = '30vh';
             }
             btnNo.onmouseleave = function() {
-                btnYes.style.left = '25vw';
-                btnNo.style.left = '60vw';
+                btnNo.style.top = '';
             }
-            BTN.onclick = function(){
+            btnYes.onclick = function(){
                 pop.style.display = "flex";
             }
             trang3_send_text.onclick = function(){
