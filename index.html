@@ -25,9 +25,8 @@
                 </div>
                 <div class="content" id="content__id">
                     <div id="text"></div>
-                    <input id = "insert_text" type="text" placeholder = "insert">
-                    <a href = "https://www.facebook.com/" id="send_text" style="text-decoration:none"></a>
-                    
+                    <input id = "insert_text" type="text" placeholder = "insert" value="">
+                    <a href = "" id="send_text" style="text-decoration:none"></a>
                 </div>
             </div>
         </div>
@@ -71,6 +70,7 @@
             var yes = document.getElementById("yes");
             var no = document.getElementById("no");
             var trang3_text = document.getElementById("text");
+            var trang3_insert_text = document.getElementById("insert_text");
             var trang3_send_text = document.getElementById("send_text");
             var c_content = document.getElementById("content__id");
             var button_number1 = document.getElementById("button__1");
@@ -95,7 +95,8 @@
             BTN.onclick = function(){
                 pop.style.display = "flex";
             }
-            BTN.onmouseover = function(){
+            trang3_send_text.onclick = function(){
+                alert("Lớn rồi, inbox trực tiếp đê!!!");
             }
         </script>
         
