@@ -87,11 +87,7 @@
             btnNo.onclick = function()
             {
                 btnNo.style.top = '30vh';
-                setTimeout(ret(),1000);
-
-            }
-            function ret(){
-                btnNo.style.top = '';
+                setTimeout( () => {btnNo.style.top = ''},500);
             }
             btnYes.onclick = function(){
                 pop.style.display = "flex";
