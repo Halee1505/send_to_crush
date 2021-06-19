@@ -61,6 +61,16 @@ html {
     position: absolute;
     left: 60vw;
 }
+#gif_2 {
+    position: absolute;
+    top: 71vh;
+    left: 65vw;
+}
+#gif_2_2 {
+    position: absolute;
+    top: 60vh;
+    left: 10vw;
+}
 .tbpopup .tboverlay {
     position:fixed;
     top:0px;
@@ -188,7 +198,7 @@ transform:translate(-50%,-50%) scale(1);
 }
 #gif {
     position: absolute;
-    top: 0px;
-    left: 10vw;
+    top: 25vh;
+    left: 25vw;
 
 }
