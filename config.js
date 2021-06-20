@@ -1,11 +1,13 @@
 const CONFIG = {
-    caption__1 : "edit caption 1",
-    button__1: "edit submit",
-    main:"Edit main title",
-    sub:"Edit sub title",
-    yes_answer:"edit yes answer",
-    no_answer:"edit no answer",
-    text: "Nhập vào thanh ở dưới nè",
-    send_text: "Bấm vào đây để gửi nè", 
-    link: "https://www.youtube.com/"
-    }
+    text1  : "Em ơi! Em là nghề gì đấy….? Sao đêm nào em cũng hiện lên trong giấc mơ của anh vậy? Anh chẳng biết làm thế nào nữa cả. Làm người yêu anh em nhé!",
+    button1  : "Button1",
+    text2  :"Em có biết là anh thích em từ lâu lắm rồi, đồng ý làm người yêu anh nhaaa",
+    subtext2  : "I love you, chuuuuuu <3333",
+    button2_1  : "Em đồng ý",
+    button2_2  :"Còn lâu, mơ đê",
+    text3  : "Hãy nói yêu anh đi",
+    button3  : "Send <3",
+    thongbao: 'Anh cũng yêu em nhiều <3333333 ',
+    form_value:'Em cũng yêu anh nhiềuuu',
+    mess: 'https://www.facebook.com/messages/t/100013698379250/'
+}
