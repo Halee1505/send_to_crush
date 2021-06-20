@@ -8,6 +8,6 @@ const CONFIG = {
     text3  : "Hãy nói yêu anh đi",
     button3  : "Send <3",
     thongbao: 'Anh cũng yêu em nhiều <3333333 ',
-    form_value:'Em cũng yêu anh nhiềuuu',
+    form_value:'Em yêu anh nhiềuuu',
     mess: 'https://www.facebook.com/messages/t/100013698379250/'
 }
