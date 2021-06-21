@@ -1,7 +1,7 @@
 const CONFIG = {
     text1  : "Em ơi! Em là nghề gì đấy….? Sao đêm nào em cũng hiện lên trong giấc mơ của anh vậy? Anh chẳng biết làm thế nào nữa cả. Làm người yêu anh em nhé!",
     button1  : "HiHi",
-    text2  :"Em có biết là anh thích em từ lâu lắm rồi, đồng ý làm người yêu anh nhaaa",
+    text2  :"Em có biết là anh thích em từ lâu lắm rồi,đồng ý làm người yêu anh nhaaa",
     subtext2  : "I love you, chuuuuuu <3333",
     button2_1  : "Em đồng ý",
     button2_2  :"Còn lâu, mơ đê",
